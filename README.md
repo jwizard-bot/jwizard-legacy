@@ -1,5 +1,5 @@
-#  !!!! IMPORTANT !!!!
-## This project will soon be rewritten progressively to Kotlin.
+> [!WARNING]
+> This repository contains LEGACY CODE and is not longer maintainable. For newest version of this software, visit > [NOISIF](https://github.com/noisif) GitHub organisation.
 
 <img align="right" src="https://raw.githubusercontent.com/Milosz08/JWizard_Discord_Bot/master/gfx/github-logo.png" height="160">
 
