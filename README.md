@@ -66,7 +66,7 @@ computer, where new functionalities can be added and tested (continuity of servi
 ## Clone script
 To install the program on your computer use the command (or use the built-in GIT system in your IDE environment):
 ```
-$ git clone https://github.com/Milosz08/jwizard jwizard-discord-bot
+$ git clone https://github.com/jwizard-bot/jwizard-legacy jwizard-legacy
 ```
 
 <a name="prepare-project"></a>
@@ -81,8 +81,8 @@ $ git clone -b [latest branch, ex. v1.0.2_05] https://github.com/Milosz08/jmpsl 
 $ ./gradlew packageAllToLocal
 ```
 This command build all library modules in `~/.m2/repositories/pl/miloszgilga/jmpsl` directory.
-* Now, after you clone AirHub Master API project via command in `Clone script` section, make sure than all repository
-  paths are typed correctly (in `/gradle/libs.versions.toml` file):
+* Now, after you clone project via command in `Clone script` section, make sure than all repository paths are typed correctly
+  (in `/gradle/libs.versions.toml` file):
 ```toml
 [versions]
 # ...
@@ -253,16 +253,15 @@ parameter.
 * Spring Boot (IoC container for DAPI runtime, WebAPI for web client interface)
 * Spring Data JPA (Hibernate, JPA, MySQL database, H2 database)
 * Spring Cache (implemented by EhCache, DAPI runtime)
-* (soon) React (web client - guild modules management interface)
 * Docker technology
 
 <a name="author"></a>
 ## Author
-Created by Miłosz Gilga. If you have any questions about this application, send message: [personal@miloszgilga.pl](mailto:personal@miloszgilga.pl).
+Created by Miłosz Gilga. If you have any questions about this application, send message: [miloszgilga@gmail.com](mailto:miloszgilga@gmail.com).
 
 <a name="project-status"></a>
 ## Project status
-Project is still in development.
+Project is abandoned.
 
 <a name="license"></a>
 ## License
